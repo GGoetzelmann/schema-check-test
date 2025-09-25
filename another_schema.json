@@ -1,0 +1,16 @@
+{
+  "$id": "https://example.com/schemas/template.json",
+  "title": "My Schema",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the user."
+    },
+    "favourite food": {
+      "type": "string",
+      "description": "Your option of choice in regards to acquiring calories."
+    }
+  },
+  "required": ["name"]
+}
