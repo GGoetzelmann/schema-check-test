@@ -4,7 +4,7 @@
   "type": "object",
   "properties": {
     "name": {
-      "$ref": "./name_definition.json"
+      "$ref": "./name_definition.json",
       "description": "Please put your name here."
     },
     "orcid": {
