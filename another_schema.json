@@ -1,5 +1,4 @@
 {
-  "$id": "https://example.com/schemas/template.json",
   "title": "My Schema",
   "type": "object",
   "properties": {
