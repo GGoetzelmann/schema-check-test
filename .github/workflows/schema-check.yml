@@ -37,3 +37,4 @@ jobs:
           validate: true
           createDiff: true
           previousVersion: ${{ env.previousVersion }}
+          token: ${{ secrets.GITHUB_TOKEN }}
