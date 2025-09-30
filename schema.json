@@ -31,7 +31,7 @@
     "feedback": {
       "type": "string",
       "description": "A short feedback on what you liked most/less or on what could be improved.",
-      "maxLength": 256
+      "maxLength": 512
     }
   },
   "required": ["name", "title", "rating"]
