@@ -33,7 +33,7 @@ jobs:
         uses: kit-data-manager/json-schema-check-action@v0.0.5
         with:
           schemaPath: ${{ matrix.schemaPath }}
-          schemaVersion: 'draft-07'
+          schemaVersion: '2019'
           validate: true
           createDiff: true
           previousVersion: ${{ env.previousVersion }}
