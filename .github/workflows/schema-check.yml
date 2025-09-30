@@ -14,7 +14,7 @@ jobs:
             tagPrefix: 'schema-'
           - schemaPath: 'another_schema.json'
             tagPrefix: 'another_schema-'
-
+      fail-fast: false
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
