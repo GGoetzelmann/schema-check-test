@@ -1,5 +1,6 @@
 {
   "$id": "https://example.com/schemas/template.json",
+  "$schema": "https://json-schema.org/draft/2019-09/schema",  
   "title": "My Schema",
   "type": "object",
   "properties": {
